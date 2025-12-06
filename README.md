@@ -7,6 +7,7 @@
 - Can Dzul Gener de Jesus - **(Agente Invernadero)**
 - Canul Jimenez Edrei Alexander
 - Ek Pech Angel Alejandro
+- Ake Lope Rene Marcelo
 
 Ingeniería en Sistemas Computacionales 9-A
 

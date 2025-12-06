@@ -5,6 +5,10 @@
 Models
 Models/
 
+# DataSets
+DataSets
+DataSets/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
