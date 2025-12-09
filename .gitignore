@@ -123,3 +123,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/AgenteInvernadero/output_chunks
+/AgenteInvernadero/Ejemplos
