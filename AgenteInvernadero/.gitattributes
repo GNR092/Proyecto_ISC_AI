@@ -1,0 +1,28 @@
+# .gitattributes
+# Standardize line endings across different operating systems.
+# This helps prevent "LF will be replaced by CRLF" warnings/errors.
+
+# Auto detect text files and perform LF normalization.
+# Git will convert text files to LF when committing, and to OS-native
+# line endings (CRLF on Windows, LF on Linux/macOS) when checking out.
+* text=auto
+
+# Treat common binary file types explicitly as binary to prevent line ending conversion.
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.rar binary
+*.7z binary
+*.pdf binary
+*.log binary
+*.pyc binary
+
+# Jupyter notebooks are text files (JSON) but often have special handling.
+# 'text' attribute handles line endings, 'eol=lf' forces LF, 'linguist-detectable' helps GitHub's Linguist.
+*.ipynb text eol=lf linguist-detectable=true

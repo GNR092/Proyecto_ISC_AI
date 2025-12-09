@@ -125,3 +125,5 @@ dmypy.json
 .pyre/
 /AgenteInvernadero/output_chunks
 /AgenteInvernadero/Ejemplos
+/AgenteInvernadero/.gemini
+AgenteInvernadero/inv*.txt
