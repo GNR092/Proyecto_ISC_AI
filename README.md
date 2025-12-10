@@ -10,7 +10,7 @@
 - ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/GNR092/Proyecto_ISC_AI%2FinventarioAI?style=plastic&label=Agente%20Invernadero%20*commits*)
   - Can Dzul Gener de Jesus
 - ![Static Badge](https://img.shields.io/badge/!Pendiente-8A2BE2?style=plastic)
-  - Canul Jimenez Edrei Alexander
+  - Canul Jimenez Edrei Alexander **(RiesgoFinanciero)**
 - ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/GNR092/Proyecto_ISC_AI%2FRECETARIOO?style=plastic&label=Recetario%20*commits*)
   - Ek Pech Angel Alejandro
 - ![Static Badge](https://img.shields.io/badge/!Pendiente-8A2BE2?style=plastic)
