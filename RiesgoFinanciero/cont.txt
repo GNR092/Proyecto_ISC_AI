@@ -1,0 +1,295 @@
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+Mercados y Negocios
+ISSN: 1665-7039
+ISSN: 2594-0163
+revistamercadosynegocios@cucea.udg.mx
+Universidad de Guadalajara
+México
+Clasificación de los riesgos financieros
+Gaytán Cortés, Juan
+Clasificación de los riesgos financieros
+Mercados y Negocios, núm. 38, 2018
+Universidad de Guadalajara, México
+Disponible en: https://www.redalyc.org/articulo.oa?id=571864088006
+Juan Gaytán Cortés. Clasificación de los riesgos financieros
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 123Indicadores Financieros y Económicos
+Clasiﬁcación de los riesgos ﬁnancieros
+Juan Gaytán Cortés
+Universidad de Guadalajara, México
+jgaytancortes@gmail.comRedalyc: https://www.redalyc.org/articulo.oa?
+id=571864088006
+Clasificación de los riesgos financieros
+El término riesgo ﬁnanciero se reﬁere a la pérdida potencial o falta de rentabilidad, o la privación de la
+posibilidad de ingresos adicionales, como resultado del resultado que se queda corto de lo que se espera
+en cualquier economía actividades de las instituciones ﬁnancieras. Ming-Yuan (2006), enfatizó que la
+globalización ﬁnanciera y los riesgos ﬁnancieros se asocian entre sí. Zsididin (2003), menciona que los riesgos
+pueden considerarse como el grado de incertidumbre que puede causar pérdidas o poner en peligro la toma
+de decisiones en las inversiones.
+Las inversiones ﬁnancieras en renta ﬁja o variable están expuestas a riesgos de diferente naturaleza y en
+los mercados ﬁnancieros, los autores, (Rosey Hudgins, 2005), (Ciha´k, 2004), (Saunders y Cornett, 2002),
+(Basel, 2001), distinguen cinco clases de riesgo:
+1. Riesgos de Mercado
+2. Riesgo de Crédito
+3. Riesgo de Liquidez
+4. Riesgos Operacionales
+5. Riesgos Legales
+1.- Riesgo de Mercado: En los mercados ﬁnancieros, como en cualquier otro mercado, los precios están
+sujetos a las fuerzas de la oferta y la demanda. La variabilidad de los precios, conforman el factor del riesgo
+de mercado.
+Los precios en los mercados ﬁnancieros están representados por: la tasa de interés o precio del dinero, los
+tipos de cambio que representan el precio de las divisas, los índices de precios y el precio mismo de los valores
+en el mercado.
+Podemos entonces deﬁnir el riesgo de mercado como: la pérdida potencial por cambios en las variables que
+inciden sobre la valuación de las posiciones por operaciones activas, pasivas o causantes de pasivo contingente,
+pudiendo mencionar entre otros las tasas de interés, tipos de cambio e índices de precios entre otros.
+El riesgo de mercado está implícito en todo tipo de operaciones ﬁnancieras, ya que todas ellas están sujetas
+a tasa de interés, precios o tipos de cambio.
+Las posiciones de divisas están expuestas a la alza o baja de los tipos de cambio.
+Un crédito concedido, un bono adquirido o un crédito recibido están expuestos a variaciones en la tasa
+de interés. Una acción que cotiza en la bolsa o una opción de compra o venta sobre Índice de Precios y
+Cotizaciones estarán expuestos a las variaciones de precios en dichos títulos, un Bono del Tesoro de los EUA
+(Treasury Bond) tendrá una doble exposición ya que el valor del mismo depende de la variación en las tasas
+de mercado y en el tipo de cambio.
+2.- Riesgo de Crédito: Un sector importante de las inversiones está sujeto al riesgo de que el deudor de
+una obligación no pueda cumplir con la misma.
+Para una institución bancaria, cada crédito que otorga está expuesto en mayor o menor medida a la
+probabilidad de incumplimiento en el pago por parte del acreditado. Una obligación o el papel comercial que
+Mercados y Negocios, 2018, núm. 38, Julio-Diciembre, ISSN: 1665-7039 2594-0163
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 124emiten las empresas, un bono emitido por un gobierno (deuda soberana) o el cumplimiento de un contrato
+de futuro, en todos ellos existe la posibilidad de falta de pago.
+El riesgo de crédito es la pérdida potencial por la falta de pago de un acreditado o contraparte, pudiéndose
+subdividir en riesgo emisor, riesgo contraparte y riesgo país.
+a) Riesgo Emisor.- Es la pérdida potencial por falta de pago del obligado directo.
+En los mercados bursátiles existen caliﬁcadoras las cuales son empresas especializadas en la medición del
+riesgo de crédito, dando caliﬁcaciones especíﬁcas para el emisor y la emisión de que se trate. Para un mismo
+emisor, sus emisiones pueden tener diferente grado de riesgo por aspectos particulares de cada crédito, tales
+como el plazo y la garantía.
+Un crédito contratado con una garantía real (hipoteca o prenda) está expuesto a un riesgo menor que un
+crédito sin garantía especíﬁca.
+b) Riesgo Contraparte.- Es la pérdida potencial ocasionada por la falta de pago de un intermediario.
+En la adquisición de un título de deuda del Gobierno Federal a una Casa de Bolsa, se considera que dicho
+título está libre de riesgo emisor, sin embargo, existe la posibilidad de que la contraparte (Casa de Bolsa) no
+pueda cubrirnos el título al vencimiento por diversos motivos que pueden ir desde fallas operativas hasta
+quiebra o suspensión de pagos.
+c) Riesgo País.- Este riesgo se reﬁere a la pérdida potencial en virtud de que un emisor o contraparte se
+encuentre radicado en un país que imponga controles e incluso prohibiciones respecto a la salida de divisas,
+lo que ocasionaría que, aún cuando el emisor o contraparte estén dispuestos y puedan honrar su deuda, les
+sea imposible hacerlo.
+Las caliﬁcadoras de valores también realizan la caliﬁcación del riesgo país. Tanto el riesgo emisor como
+el riesgo país pueden materializarse con el simple cambio de caliﬁcación a un país, emisor o emisión, lo cual
+puede modiﬁcar en forma importante el precio de mercado de los títulos valores.
+3.- Riesgo de Liquidez:  Los ﬂujos de caja que ingresan no siempre se corresponden con las necesidades de
+liquidez que genera el cumplimiento de las obligaciones contratadas. Los faltantes de liquidez en los mercados
+ﬁnancieros deben ser cubiertos en forma inmediata.
+El riesgo de liquidez lo podemos deﬁnir como la pérdida potencial por la imposibilidad de renovar pasivos o
+de contratar otros en condiciones normales; por la venta anticipada y forzosa de activos a descuentos inusuales
+para hacer frente a las obligaciones, o bien, por el hecho de que una posición no pueda ser oportunamente
+enajenada o cubierta mediante el establecimiento de una posición contraria equivalente.
+En resumen, la materialización de este riesgo se puede presentar en dos situaciones: La obtención de
+recursos a un alto costo y la venta de activos con pérdida.
+En una institución bancaria, para fondear los activos del balance incluyendo los portafolios, se utiliza
+capital, clientela e intermediarios. Los pasivos con intermediarios se utilizan para regular las variaciones del
+activo o de la captación con clientes. La liquidez disponible debe ser suﬁciente para solventar las obligaciones
+de la institución, sin que se tenga que acceder recurrentemente al fondeo más costoso o de última instancia.
+El origen de la necesidad de realizar ventas forzadas u obtener fondeo caro en un banco, surge
+principalmente de la salida de pasivo o de la necesidad de fondear los activos de mercado.Aún cuando
+una institución pueda obtener la liquidez necesaria con intermediarios, el costo al que puede conseguir los
+recursos puede ser muy alto.
+4.- Riesgo Operativo:  Es la pérdida potencial por fallas o deﬁciencias en los sistemas de información, en los
+controles internos o por errores en el procesamiento de las operaciones. También incluye las fallas humanas, el
+fraude y desastres ocasionados por fuerzas naturales y accidentes, que impidan continuar con las operaciones
+o que reduzcan la capacidad operativa.
+Los riesgos operativos en la mayoría de los casos se cuentan dentro de los riesgos no cuantiﬁcables en virtud
+de la complejidad para estimar la probabilidad de ocurrencia y la magnitud de las pérdidas.
+Juan Gaytán Cortés. Clasificación de los riesgos financieros
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 125Contra el riesgo operativo es importante una adecuada deﬁnición de los procesos las funciones y
+responsabilidades, controles operativos, redundancia de sistemas y planes de contingencia.
+5.- Riesgo Legal:  Es la pérdida potencial por el incumplimiento de las disposiciones legales y
+administrativas aplicables, la emisión de resoluciones administrativas y judiciales desfavorables y la aplicación
+de sanciones, en relación con las operaciones que las instituciones llevan a cabo.
+También se incluye la deﬁciente interpretación de las disposiciones legales locales cuando se opera en
+otro país y las modiﬁcaciones y adecuaciones a la ley que pudieran dejar a la institución en una situación
+comprometida u ocasionar costos adicionales, como es el caso de las disposiciones de carácter ambiental las
+cuales día con día se endurecen.
+Al igual que los riesgos operativos, los riesgos legales en su mayoría corresponden a los riesgos no
+cuantiﬁcables.
+A continuación, se describe y proporciona la evolución de algunos indicadores económicos y ﬁnancieros
+del entorno mexicano con la ﬁnalidad de facilitar la toma de decisiones relacionadas con las estrategias
+personales y de la empresa de forma integral.
+1. Índice nacional de precios al consumidor (I.N.P.C.)
+2. Índice de precios y cotizaciones (IPC)
+3. Tipo de cambio
+4. Tasa de interés interbancaria de equilibrio (TIIE)
+5. Tasa de rendimiento de los CETES
+6. Unidades de inversión (UDIS)
+1. ÍNDICE NACIONAL DE PRECIOS AL CONSUMIDOR (INPC)
+Nacen en 1995 y reﬂejan los cambios en los precios al consumidor, mide el aumento general de precios en el
+país. Se calcula quincenalmente por el Banco de México y la participación del INEGI, se publica en el Diario
+Oﬁcial de la Federación los días 10 y 25 de cada mes. El periodo de referencia es la segunda quincena de
+diciembre de 2010.
+TABLA 1
+INFLACIÓN ACUMULADA EN EL AÑO
+
+Mercados y Negocios, 2018, núm. 38, Julio-Diciembre, ISSN: 1665-7039 2594-0163
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 126Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y
+Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Precios e inﬂación
+> Índice nacional de precios al consumidor >Mensual > Índice > Índice general y por objeto del gasto > Índice general
+GRÁFICA 1
+INFLACIÓN EN MÉXICO (2006-2017 cifras acumuladas al ﬁnal del año)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y Estadística.
+http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Financiero y bursátil > Indicadores
+ﬁnancieros y bursátiles > Índice de precios y cotizaciones de la Bolsa Mexicana de Valores > Último índice del mes
+GRÁFICA 2
+INFLACIÓN ANUALIZADA EN MÉXICO Acumulada Enero-Junio 2018
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y Estadística.
+http://www.inegi.org.mx/sistemas/bie/ (consultado junio 10 de 2018) Ruta temática: Financiero y bursátil > Indicadores
+ﬁnancieros y bursátiles > Índice de precios y cotizaciones de la Bolsa Mexicana de Valores > Último índice del mes
+2. ÍNDICE DE PRECIOS Y COTIZACIONES (IPC)
+Representa el cambio en los valores negociados en la Bolsa Mexicana de Valores en relación con el día anterior
+para determinar el porcentaje de alza o baja de las acciones más representativas de las empresas que cotizan
+en la misma.
+TABLA 2
+ÍNDICE DE PRECIOS Y COTIZACIONES
+
+Juan Gaytán Cortés. Clasificación de los riesgos financieros
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 127Fuente: Elaboración propia con cifras proporcionadas por el Bolsa Mexicana de Valores e Instituto Nacional de Geografía y
+Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Financiero y bursátil >
+Indicadores ﬁnancieros y bursátiles > Índice de precios y cotizaciones de la Bolsa Mexicana de Valores > Último índice del mes
+GRÁFICA 3
+Índice de precios y cotizaciones (IPC)
+Fuente: Elaboración propia con cifras proporcionadas por el Bolsa Mexicana de Valores e Instituto Nacional de Geografía y
+Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Financiero y bursátil >
+Indicadores ﬁnancieros y bursátiles > Índice de precios y cotizaciones de la Bolsa Mexicana de Valores > Último índice del mes
+GRÁFICA 4
+ÍNDICE DE PRECIOS Y COTIZACIONES IPC
+Enero-Junio de 2018 (Puntuación al ﬁnal de cada mes)
+Fuente: Elaboración propia con cifras proporcionadas por el Bolsa Mexicana de Valores e Instituto Nacional de Geografía y
+Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Financiero y bursátil >
+Indicadores ﬁnancieros y bursátiles > Índice de precios y cotizaciones de la Bolsa Mexicana de Valores > Último índice del mes
+3. TIPO DE CAMBIO
+Es el valor del peso mexicano con respecto al dólar calculado con el Promedio diario de los cinco bancos
+más importantes del país, que reﬂeja el precio spot (de contado), negociado entre bancos. Está altamente
+relacionado con la inﬂación, la tasa de interés, y la Bolsa Mexicana de Valores.
+Mercados y Negocios, 2018, núm. 38, Julio-Diciembre, ISSN: 1665-7039 2594-0163
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 128TABLA 3
+TIPO DE CAMBIO
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y
+Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Financiero
+y bursátil > Indicadores ﬁnancieros y bursátiles > Cotización del dólar en el mercado cambiario nacional >
+Tipo de cambio para solventar obligaciones en moneda extranjera > Cotizaciones al cierre del mes. Venta
+GRÁFICA 5
+TIPO DE CAMBIO Moneda nacional por dolar de los EE UU 2006 - 2017 (paridad al ﬁnal del año)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y
+Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Financiero
+y bursátil > Indicadores ﬁnancieros y bursátiles > Cotización del dólar en el mercado cambiario nacional >
+Tipo de cambio para solventar obligaciones en moneda extranjera > Cotizaciones al cierre del mes. Venta
+GRÁFICA 6
+TIPO DE CAMBIO Moneda nacional por dólar de
+los EEUU Enero-Junio 2018 (paridad al cierre de mes)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y
+Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Financiero
+y bursátil > Indicadores ﬁnancieros y bursátiles > Cotización del dólar en el mercado cambiario nacional >
+Tipo de cambio para solventar obligaciones en moneda extranjera > Cotizaciones al cierre del mes. Venta
+Juan Gaytán Cortés. Clasificación de los riesgos financieros
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 1294. TASA DE INTERÉS INTERBANCARIA DE EQUILIBRIO (TIIE).
+El Banco de México el 23 de marzo de 1995, con el objeto de establecer una tasa de interés interbancaria que
+reﬂeje mejor las condiciones del mercado, dio a conocer a través del Diario Oﬁcial de la Federación la Tasa
+de Interés Interbancaria de Equilibrio.
+TABLA 4
+Tasa de Interés Interbancaria de Equilibrio
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional
+de Geografía y Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en enero 12
+de 2018) Ruta temática: Financiero y bursátil > Indicadores ﬁnancieros y bursátiles > Tasas de
+interés bancarias > Tasa de interés interbancaria de equilibrio (TIIE) >A 28 días (al cierre del mes)
+GRÁFICA 7
+TASA DE INTERES INTERBANCARIA DE
+EQUILIBRIO (TIEE) 2006- 2017 (cifras al cierre del año)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y Estadística.
+http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Financiero y bursátil > Indicadores
+ﬁnancieros y bursátiles > Tasas de interés bancarias > Tasa de interés interbancaria de equilibrio (TIIE) >A 28 días (al cierre del mes)
+GRÁFICA 8
+TASA DE INTERÉS INTERBANCARIA DE
+EQUILIBRIO (TIIE) Enero-Junio 2018 (cotización a 28 días)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y Estadística.
+http://www.inegi.org.mx/sistemas/bie/ (consultado en junio10 de 2018) Ruta temática: Financiero y bursátil > Indicadores
+ﬁnancieros y bursátiles > Tasas de interés bancarias > Tasa de interés interbancaria de equilibrio (TIIE) >A 28 días (al cierre del mes)
+5. TASA DE RENDIMIENTO DE LOS CETES
+Mercados y Negocios, 2018, núm. 38, Julio-Diciembre, ISSN: 1665-7039 2594-0163
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 130TABLA 5
+TASA DE RENDIMIENTO DE LOS CETES (28 días)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional
+de Geografía y Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en enero 12 del 2018)
+Ruta temática: Financiero y bursátil > Indicadores ﬁnancieros y bursátiles > Tasas de rendimiento en
+instrumentos del mercado primario > Certiﬁcados de la Tesorería de la Federación (CETES) > 28 días
+GRÁFICA 9
+TASA DE RENDIMIENTO DE CETES 2006- 2017 (cifras al cierre del año)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional
+de Geografía y Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en enero 12 del 2018)
+Ruta temática: Financiero y bursátil > Indicadores ﬁnancieros y bursátiles > Tasas de rendimiento en
+instrumentos del mercado primario > Certiﬁcados de la Tesorería de la Federación (CETES) > 28 días
+GRÁFICA 10
+TASA DE RENDIMIENTO DE CETES Enero-Junio 2018 (cifras al ﬁnal de cada mes)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional
+de Geografía y Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018)
+Ruta temática: Financiero y bursátil > Indicadores ﬁnancieros y bursátiles > Tasas de rendimiento en
+instrumentos del mercado primario > Certiﬁcados de la Tesorería de la Federación (CETES) > 28 días
+6. UNIDADES DE INVERSIÓN (UDIS)
+La unidad de inversión es una unidad de cuenta de valor real constante, en la que pueden denominarse títulos
+de crédito, salvo cheques y en general contratos mercantiles u otros actos de comercio. El 1º de abril de 1995
+se publicó en el Diario Oﬁcial de la Federación el Decreto por el que se establecen las obligaciones que podrán
+Juan Gaytán Cortés. Clasificación de los riesgos financieros
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 131denominarse en UDIS. Desde el 4 de abril de 1995 el Banco de México publica en el Diario Oﬁcial de la
+Federación el valor en moneda nacional de la Unidad de Inversión, para cada día.
+TABLA 6
+UNIDADES DE INVERSIÓN (UDIS)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional
+de Geografía y Estadística. http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de
+2018) Ruta temática: Indicadores económicos de coyuntura > Indicadores ﬁnancieros > Tipo de
+cambio del peso respecto al dólar y valor de las UDIS > Valor de las unidades de inversión (UDIS)
+GRÁFICA 11
+UNIDADES DE INVERSIÓN (UDIS) 2006- 2017 (Cifras al cierre del año)
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y Estadística.
+http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Indicadores económicos de coyuntura >
+Indicadores ﬁnancieros > Tipo de cambio del peso respecto al dólar y valor de las UDIS > Valor de las unidades de inversión (UDIS)
+GRÁFICA 12
+UNIDADES DE INVERSIÓN (UDIS) Enero-Junio 2018
+Fuente: Elaboración propia con cifras proporcionadas por el Banco de México e Instituto Nacional de Geografía y Estadística.
+http://www.inegi.org.mx/sistemas/bie/ (consultado en junio 10 de 2018) Ruta temática: Indicadores económicos de coyuntura >
+Indicadores ﬁnancieros > Tipo de cambio del peso respecto al dólar y valor de las UDIS > Valor de las unidades de inversión (UDIS)
+Mercados y Negocios, 2018, núm. 38, Julio-Diciembre, ISSN: 1665-7039 2594-0163
+PDF generado a partir de XML-JATS4R por Redalyc
+Proyecto académico sin fines de lucro, desarrollado bajo la iniciativa de acceso abierto
+ 132REFERENCIAS
+Banco de México e Instituto Nacional de Geografía y Estadística. http://www.inegi.org.mx/sistemas/bie / (consultado
+en Julio 17 de 2017)
+Bolsa Mexicana de Valores e Instituto Nacional de Geografía y Estadística. http://www.inegi.org.mx/sistemas/bie /
+(consultado en Julio 17 de 2017)
+Cool, K., and Schendel, D. (1988). Performance Diﬀerences Among Strategic Group Members. Strategic Management
+Journal  (9), pp. 207-233.
+Guizzardi, G. (2005). Ontological Foundations for structural conceptual models, http://doc.utwente.nl/50826/1/t
+hesis_Guizzardi.pdf  (consultado junio 06 de 2017).
+Hansen, G., y Wernerfelt, B. (1989). Determinants of Firm Performance: e Relative Importance of Economic and
+Organizational Factors. Strategic Management Journal.  (10).
+Mahoney, J. T., y Pandian, R. (1992). e ResourceBased View Within the Conversation of Strategic Management.
+Strategic Management Journal  (13), pp. 363-380.
+Enlace alternativo
+http://www.revistascientiﬁcas.udg.mx/index.php/MYN/article/view/7274/pdf  (pdf)
