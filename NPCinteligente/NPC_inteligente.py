@@ -1,6 +1,11 @@
+# npc_smart_behavior_v3.py
+# Versi\u00f3n 3: mejoras solicitadas sobre v2
+
 import pygame
 import random
 import os
+import json
+from datetime import datetime
 
 try:
     from gensim.models import Word2Vec
@@ -14,15 +19,15 @@ BG = (30,30,40)
 PLAYER_COLOR = (50,200,50)
 NPC_COLOR = (200,50,50)
 OBST_COLOR = (120,120,120)
-# fonts will be initialized after pygame.init()
+# Las fuentes se inicializarán después de pygame.init()
 FONT_XS = FONT_S = FONT_M = FONT_L = None
 
-# Damage settings
-PLAYER_CLICK_DAMAGE = 8            # base damage for left-click
-PLAYER_MELEE_DAMAGE = 20           # base damage for melee (space)
-NPC_ATTACK_DAMAGE = 15             # base NPC attack damage
-PLAYER_TO_NPC_REDUCE = 0.10        # player->npc damage reduction (10%)
-NPC_TO_PLAYER_REDUCE = 0.13        # npc->player damage reduction (13%)
+# Configuración de daños
+PLAYER_CLICK_DAMAGE = 8            # daño base por clic izquierdo
+PLAYER_MELEE_DAMAGE = 20           # daño base para ataque cuerpo a cuerpo (espacio)
+NPC_ATTACK_DAMAGE = 15             # daño base de ataque NPC
+PLAYER_TO_NPC_REDUCE = 0.10        # reducción de daño jugador->NPC (10%)
+NPC_TO_PLAYER_REDUCE = 0.13        # reducción de daño NPC->jugador (13%)
 
 PATROL = 'patrol'
 PURSUE = 'pursue'
@@ -99,11 +104,11 @@ class NPC:
             if self.can_see(p):
                 visible += 1
         frac = visible / len(h)
-        # learning rate scales with learning_scale (starts small)
+        # La tasa de aprendizaje se escala con learning_scale (comienza con algo pequeño)
         lr = 0.005 + 0.045 * max(0.0, min(1.0, self.learning_scale))
         target_aggr = max(0.0, min(1.0, 0.3 + 0.7*frac + (avg_speed/3.0)))
         self.aggr += (target_aggr - self.aggr) * lr
-        # small vision adaptation
+      # adaptación de visión pequeña
         self.vision += ( (frac-0.5) * 0.2 ) * lr * 10
         self.vision = max(60, min(200, self.vision))
 
@@ -212,17 +217,17 @@ class NPC:
     def step(self, delta):
         nx = self.pos.x + delta.x
         ny = self.pos.y + delta.y
-        # attempt X
+      # intento X
         if not self._collides_any(nx,self.pos.y,self.radius):
             self.pos.x = nx
         else:
             self.pos.x += delta.x*0.15
-        # attempt Y
+        # intento Y
         if not self._collides_any(self.pos.x,ny,self.radius):
             self.pos.y = ny
         else:
             self.pos.y += delta.y*0.15
-        # if stuck, perpendicular step
+        # Si está atascada, paso perpendicular
         if self._collides_any(self.pos.x,self.pos.y,self.radius):
             perp = pygame.Vector2(-delta.y, delta.x)
             if perp.length_squared()>0:
@@ -263,7 +268,7 @@ class Player:
         self.radius = 10
 
     def update(self,obs):
-        # manage boost timer
+        # administrar el temporizador de impulso
         if self.boost_timer>0:
             self.boost_timer -= 1
             if self.boost_timer==0:
@@ -294,7 +299,7 @@ def main():
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_W,SCREEN_H))
     clock = pygame.time.Clock()
-    # init fonts once
+   # administrar el temporizador de impulso
     global FONT_XS, FONT_S, FONT_M, FONT_L
     FONT_XS = pygame.font.Font(None,14)
     FONT_S = pygame.font.Font(None,18)
@@ -344,11 +349,51 @@ def main():
     player_history = []
 
     gp_file = os.path.join(os.path.dirname(__file__), 'games_played.txt')
+    meta_file = os.path.join(os.path.dirname(__file__), 'games_meta.json')
+    model_file = os.path.join(os.path.dirname(__file__), 'gensim_model.model')
+    # administrar el temporizador de impulso
     try:
         with open(gp_file, 'r') as f:
             games_played = int(f.read().strip() or '0')
     except Exception:
         games_played = 0
+    # cargar metadatos si existen (preferible)
+    try:
+        with open(meta_file, 'r', encoding='utf-8') as f:
+            meta = json.load(f)
+            games_played = int(meta.get('games_played', games_played))
+           # restaurar los parámetros del NPC almacenados si están presentes
+            npc_meta = meta.get('npc', {})
+            if 'aggr' in npc_meta: npc.aggr = float(npc_meta.get('aggr', npc.aggr))
+            if 'vision' in npc_meta: npc.vision = float(npc_meta.get('vision', npc.vision))
+            if 'speed' in npc_meta: npc.speed = float(npc_meta.get('speed', npc.speed))
+    except Exception:
+        meta = {}
+
+    def save_meta():
+        try:
+            meta_out = {
+                'games_played': games_played,
+                'npc': {'aggr': float(npc.aggr), 'vision': float(npc.vision), 'speed': float(npc.speed)},
+                'stats': meta.get('stats', {}),
+                'ts': datetime.utcnow().isoformat() + 'Z'
+            }
+            with open(meta_file, 'w', encoding='utf-8') as f:
+                json.dump(meta_out, f, ensure_ascii=False, indent=2)
+            # También mantenga el contador simple para compatibilidad con versiones anteriores
+            try:
+                with open(gp_file, 'w') as f:
+                    f.write(str(games_played))
+            except Exception:
+                pass
+           # si el modelo gensim está en la memoria, guárdelo
+            if GENSIM_AVAILABLE and 'modelo' in locals():
+                try:
+                    modelo.save(model_file)
+                except Exception:
+                    pass
+        except Exception:
+            pass
 
     while running:
         for e in pygame.event.get():
@@ -360,13 +405,30 @@ def main():
             if e.type==pygame.KEYDOWN and e.key==pygame.K_r:
                 games_played = 0
                 try:
-                    with open(gp_file, 'w') as f:
-                        f.write('0')
+                    # reinicio completo: borrar estadísticas, restablecer parámetros de NPC a los valores predeterminados, eliminar modelo guardado
+                    meta['stats'] = {}
+                    # restablecer los parámetros principales del NPC
+                    npc.aggr = 0.5
+                    npc.vision = 90
+                    npc.speed = 1.2
+                    npc.player_history = []
+                    npc.learning_scale = 0.0
+                   # eliminar el archivo del modelo persistente si existe
+                    try:
+                        if os.path.exists(model_file):
+                            os.remove(model_file)
+                    except Exception:
+                        pass
+                    # eliminar el modelo en memoria si está presente
+                    if 'modelo' in locals():
+                        try:
+                            del modelo
+                        except Exception:
+                            pass
+                    save_meta()
                 except Exception:
                     pass
-                npc.player_history = []
-                npc.learning_scale = 0.0
-                print('Aprendizaje del NPC reiniciado.')
+                print('Aprendizaje del NPC reiniciado (reset completo).')
             if e.type==pygame.MOUSEBUTTONDOWN and e.button==1 and not game_over:
                 m = pygame.Vector2(e.pos)
                 if m.distance_to(npc.pos)<20:
@@ -410,7 +472,7 @@ def main():
                 npc.aggr = min(1.0,npc.aggr+0.05)
             keys = pygame.key.get_pressed()
             if keys[pygame.K_SPACE] and player.pos.distance_to(npc.pos)<(npc.radius+player.radius+6):
-                # player melee damage reducido
+                # jugador daño cuerpo a cuerpo reducido
                 dmg = int(PLAYER_MELEE_DAMAGE * (1.0 - PLAYER_TO_NPC_REDUCE))
                 npc.health = int(max(0, int(npc.health) - int(dmg)))
                 npc.aggr = max(0.0,npc.aggr-0.1)
@@ -422,8 +484,16 @@ def main():
                 else: result='Juego terminado: Has derrotado al NPC'
                 try:
                     games_played += 1
-                    with open(gp_file, 'w') as f:
-                        f.write(str(games_played))
+                   # jugador daño cuerpo a cuerpo reducido
+                    stats = meta.get('stats', {})
+                    if 'wins' not in stats: stats['wins'] = 0
+                    if 'losses' not in stats: stats['losses'] = 0
+                    if npc.health<=0 and player.health>0:
+                        stats['player_wins'] = stats.get('player_wins',0) + 1
+                    elif player.health<=0 and npc.health>0:
+                        stats['npc_wins'] = stats.get('npc_wins',0) + 1
+                    meta['stats'] = stats
+                    save_meta()
                 except Exception:
                     pass
 
